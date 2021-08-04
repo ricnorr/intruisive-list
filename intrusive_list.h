@@ -97,7 +97,7 @@ class List {
       current->left_ = nullptr;
       current = current->right_;
     }
-    tail_ = head_;
+    delete head_;
   }
 
   List() {}
